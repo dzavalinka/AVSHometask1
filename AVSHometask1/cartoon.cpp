@@ -47,7 +47,7 @@ void Out(cartoon &cartoon, std::ofstream &stream) {
             type = "plasticine";
             break;
     }
-    stream << "Animation film: name - " << cartoon.name << ", year of release - " << cartoon.year << ", type - " << type << "\n";
+    stream << "Animation film: name - " << cartoon.name << ", year of release - " << cartoon.year << ", animation type - " << type << "\n";
 }
 
 double Function(cartoon &c) {
