@@ -38,7 +38,7 @@ void Out(cartoon &cartoon, std::ofstream &stream) {
     std::string type;
     switch (cartoon.t) {
         case cartoon::DRAW:
-            type = "draw";
+            type = "painted";
             break;
         case cartoon::PUPPET:
             type = "puppet";
