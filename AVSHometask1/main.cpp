@@ -8,17 +8,17 @@
 void first_error_message() {
     std::cout << "incorrect command line!\n"
                  "  Waited:\n"
-                 "     command -f infile outfile01 outfile02\n"
+                 "     command file <infile> <outfile>\n"
                  "  Or:\n"
-                 "     command -n number outfile01 outfile02\n";
+                 "     command random <numberOfMovies> <outfile>\\n";
 }
 
 void second_error_message() {
     std::cout << "incorrect qualifier value!\n"
                  "  Waited:\n"
-                 "     command -f infile outfile01 outfile02\n"
+                 "     command file <infile> <outfile>\n"
                  "  Or:\n"
-                 "     command -n number outfile01 outfile02\n";
+                 "     command random <numberOfMovies> <outfile>\n";
 }
 
 void third_error_message(int size) {
@@ -61,15 +61,10 @@ int main(int argc, char *argv[]) {
         return 2;
     }
 
-    std::ofstream of_stream(argv[3]);
-    of_stream << "Input container:\n";
-    Out(container, of_stream);
-
-    std::ofstream out_stream(argv[4]);
+    std::ofstream out_stream(argv[3]);
     InsertionSort(container);
     out_stream << "Sorted container:\n";
     Out(container, out_stream);
     Clear(container);
-    std::cout << "Stop" << std::endl;
     return 0;
 }
