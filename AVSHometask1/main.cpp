@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
 
     if (!strcmp(argv[1], "file")) {
         std::ifstream stream(argv[2]);
-        // Проверка на существование файла, если файл не существует, выбросится предупреждение.
+        // Проверка на существование файла.
         if (stream.is_open())
             In(container, stream);
         else {
@@ -63,7 +63,6 @@ int main(int argc, char *argv[]) {
 
     std::ofstream out_stream(argv[3]);
     InsertionSort(container);
-    out_stream << "Sorted container:\n";
     Out(container, out_stream);
     Clear(container);
     return 0;

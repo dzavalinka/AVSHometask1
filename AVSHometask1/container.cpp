@@ -32,9 +32,8 @@ void InRandom(container &c, int size) {
 }
 
 void Out(container &c, std::ofstream &stream) {
-    stream << "Container contains " << c.len << " elements." << std::endl;
+    stream << "Container stores " << c.len << " movies:" << std::endl;
     for (int i = 0; i < c.len; i++) {
-        stream << i << ": ";
         Out(*(c.cont[i]), stream);
     }
 }

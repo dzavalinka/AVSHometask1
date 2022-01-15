@@ -26,9 +26,8 @@ void InRandom(documentary &documentary) {
 }
 
 void Out(documentary &documentary, std::ofstream &stream) {
-    stream << "Documentary: name = " << documentary.name << ", year = " << documentary.year << ", duration = "
-           << documentary.duration
-           << ", year / name.len(): " << Function(documentary) << "\n";
+    stream << "Documentary film: name - " << documentary.name << ", year of release - " << documentary.year << ", duration - "
+           << documentary.duration<< "\n";
 }
 
 double Function(documentary &documentary) {

@@ -26,8 +26,8 @@ void InRandom(fiction &fiction) {
 }
 
 void Out(fiction &fiction, std::ofstream &stream) {
-    stream << "Fiction: name = " << fiction.name << ", year = " << fiction.year << ", director = "
-           << fiction.director << ", year / name.len(): " << Function(fiction) << "\n";;
+    stream << "Fiction film: name - " << fiction.name << ", year of release - " << fiction.year << ", director - "
+           << fiction.director << "\n";;
 }
 
 double Function(fiction &f) {
