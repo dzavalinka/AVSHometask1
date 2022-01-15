@@ -1,0 +1,3 @@
+C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cmake-build-debug/CMakeFiles/AVSHometask1.dir
+C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AVSHometask1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AVSHometask1">
+				<Option output="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cmake-build-debug/AVSHometask1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 AVSHometask1"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AVSHometask1/fast">
+				<Option output="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cmake-build-debug/AVSHometask1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 AVSHometask1/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MiNot\Desktop\AVSHometask1\AVSHometask1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cartoon.cpp">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/cartoon.h">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/container.cpp">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/container.h">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/documentary.cpp">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/documentary.h">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/fiction.cpp">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/fiction.h">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/main.cpp">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/movie.cpp">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/movie.h">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/utils.cpp">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/utils.h">
+			<Option target="AVSHometask1"/>
+		</Unit>
+		<Unit filename="C:/Users/MiNot/Desktop/AVSHometask1/AVSHometask1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
