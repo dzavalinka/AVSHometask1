@@ -1,0 +1,11 @@
+Container stores 10 movies:
+Animation film: name - bYBvJwe5KjOwJk, year of release - 2003, animation type - puppet
+Animation film: name - f580tl6DcmzhNc, year of release - 2012, animation type - plasticine
+Fiction film: name - bSbVJSa6uqlrd, year of release - 1960, director - QJDI
+Animation film: name - Nqg4I6waGDzy, year of release - 2002, animation type - plasticine
+Fiction film: name - TcvDIWXrpwr, year of release - 2009, director - YTYQC
+Animation film: name - YNXWft02Z, year of release - 1975, animation type - plasticine
+Fiction film: name - TzvRtG0, year of release - 1900, director - ZADKTVDPQUIRRZ
+Documentary film: name - wozeoXI, year of release - 1909, duration - 92
+Documentary film: name - VLH0MUe, year of release - 1970, duration - 154
+Fiction film: name - OnfL, year of release - 1967, director - FMYCULKKAWARLOZ
